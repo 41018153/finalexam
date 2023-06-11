@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>回報問題</title>
+	</head>
+	<body>
+		<form action="">
+			<table width = "50%" align = "center" border = "1" cellspacing = "0">
+				<tr>
+					<td align = "center">
+						<p>姓名：<input type = "text" name = "username" placeholder = "請輸入姓名" required autofocus></p>
+						<p>信箱：<input type = "email" name = "email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></p>
+						<label>回報問題<br>
+							<textarea name="bug" rows="5" cols="25" placeholder="請填寫所遇到的問題"></textarea>
+						</label><br>
+						<p>
+							<input type="submit" value="送出">
+							<input type="reset" value="重置">
+						</p>
+					</td>
+				</tr>
+			</table>
+
+			<p align = "center"><input type = "button" name = "back" onclick = "history.back()" value="回到上一頁"></input></p>
+		</form>
+	</body>
+</html>
